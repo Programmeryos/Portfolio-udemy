@@ -3,10 +3,13 @@
 
 @import 'base/variables';
 @import 'base/mixins';
-@import 'blocks/promo';
 @import 'blocks/title';
+@import 'blocks/img-location';
+@import 'blocks/promo';
 @import 'blocks/btn';
 @import 'blocks/sidapanel';
+@import 'blocks/menu';
+@import 'blocks/about-me';
 
 *{
     margin: 0;

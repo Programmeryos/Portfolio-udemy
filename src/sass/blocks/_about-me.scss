@@ -1,0 +1,57 @@
+.about-me{
+    padding: 120px 0;
+    min-height: 600px;
+    &__img{
+        background: url(../img/about-me__photo.jpg) center no-repeat;
+        width: 100%;
+    }
+    &__grid{
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 400px 640px;
+        grid-template-rows: 600px;
+        column-gap: 70px;
+    }
+    &__wrapper__bio{
+        &__subtitle{
+            padding-left: 10px;
+            position: relative;
+            @include before_circle;
+        }
+        &__divider{
+            background-color: $main-color;
+            width: 60px;
+            height: 3px;
+        }
+        &__descr{
+            margin-top: 20px;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 21px;
+            color: #000000;
+        }
+    }
+    &__skills{
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: 260px 260px;
+        column-gap: 50px;
+        row-gap: 20px;
+        &__item{
+            position: relative;
+            padding-left: 60px;
+            @include include-img_circle;
+            &:nth-child(2){
+                img{
+                    left: 7%;
+                }
+            }
+            &__descr{
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 18px;
+                color: #000000;
+            }
+        }
+    }
+}

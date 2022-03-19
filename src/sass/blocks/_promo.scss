@@ -6,6 +6,7 @@
     &__header{
         width: 530px;
         margin-top: 10px;
+        color:#fff;
     }
     &__btns{
         margin-top: 25px;
@@ -27,5 +28,6 @@
         @include before_circle;
         padding-left: 10px;
         z-index: 2;
+        color: #fff;
     }
 }
