@@ -14,3 +14,10 @@ closeElem.addEventListener('click', () => {
 overlayClose.addEventListener('click', () => {
     menu.classList.remove('active');
 });
+
+const counters = document.querySelectorAll('.skills-percent__wrapper__item-head__percents'),
+    line = document.querySelectorAll('.skills-percent__wrapper__item-rentangle__include span');
+    
+counters.forEach( (item, i) => {
+    line[i].style.width = item.innerHTML;
+});
