@@ -12,6 +12,7 @@
         background-color: $main-color;
     }
     &__wrapper{
+        padding: 0 60px;
         margin-top: 60px;
         display: grid;
         grid-template: 150px / repeat(2, 366px);

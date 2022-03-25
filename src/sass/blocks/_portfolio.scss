@@ -19,8 +19,9 @@
         margin-top: 60px;
         display: grid;
         gap: 5px;
-        grid-template: repeat(1,280px) / repeat(4, 280px);
+        grid-template: repeat(1,280px) / repeat(2, 280px);
         grid-auto-rows: 280px;
+        justify-content: center;
     }
     &__item{
         transition: all 0.6s;
@@ -31,14 +32,6 @@
         }
         &:hover{
             transform: scale(1.05);
-        }
-        &:nth-child(1){
-            grid-column: 2/3;
-            grid-row: 1/2;
-        }
-        &:nth-child(2){
-            grid-column: 3/4;
-            grid-row: 1/2;
         }
     }
 }
