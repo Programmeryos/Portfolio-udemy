@@ -80,7 +80,7 @@
    <section class="about-me">
        <div class="container">
            <div class="about-me__grid">
-               <div class="about-me__img"></div>
+               <div class="about-me__img"><img src="img/about-me__photo.jpg" alt=""></div>
                <div class="about-me__wrapper">
                    <div class="about-me__wrapper__bio">
                         <div class="title title__fz16 about-me__wrapper__bio__subtitle">
@@ -196,40 +196,43 @@
                     <div class="skills__item-descr">Именно он создает каркас вашего сайта или приложения, а пятая версия позволит мне создавать более SEO-оптимизированную структуру вашего продукта</div>
                 </div>   
 
-                <div class="skills-percent__wrapper">
-                    <div class="skills-percent__wrapper__item">
-                        <div class="skills-percent__wrapper__item-head">
-                            <div class="title title__fz14 skills-percent__wrapper__item-head__title">Создание сайтов</div>
-                            <div class="skills-percent__wrapper__item-head__percents">100%</div>
-                        </div>
-                        <div class="skills-percent__wrapper__item-rentangle">
-                            <div class="skills-percent__wrapper__item-rentangle__include"><span></span></div>
-                        </div>
-                    </div>
-                    <div class="skills-percent__wrapper__item">
-                        <div class="skills-percent__wrapper__item-head">
-                            <div class="title title__fz14 skills-percent__wrapper__item-head__title">Работа с даными</div>
-                            <div class="skills-percent__wrapper__item-head__percents">75%</div>
-                        </div>
-                        <div class="skills-percent__wrapper__item-rentangle">
-                            <div class="skills-percent__wrapper__item-rentangle__include"><span></span></div>
-                        </div>
-                    </div>
-                    <div class="skills-percent__wrapper__item">
-                        <div class="skills-percent__wrapper__item-head">
-                            <div class="title title__fz14 skills-percent__wrapper__item-head__title">Креативность</div>
-                            <div class="skills-percent__wrapper__item-head__percents">60%</div>
-                        </div>
-                        <div class="skills-percent__wrapper__item-rentangle">
-                            <div class="skills-percent__wrapper__item-rentangle__include"><span></span></div>
-                        </div>
-                    </div>
-                </div>     
+                  
            </div>
+           <div class="skills-percent__wrapper">
+            <div class="skills-percent__wrapper__item">
+                <div class="skills-percent__wrapper__item-head">
+                    <div class="title title__fz14 skills-percent__wrapper__item-head__title">Создание сайтов</div>
+                    <div class="skills-percent__wrapper__item-head__percents">100%</div>
+                </div>
+                <div class="skills-percent__wrapper__item-rentangle">
+                    <div class="skills-percent__wrapper__item-rentangle__include"><span></span></div>
+                </div>
+            </div>
+            <div class="skills-percent__wrapper__item">
+                <div class="skills-percent__wrapper__item-head">
+                    <div class="title title__fz14 skills-percent__wrapper__item-head__title">Работа с даными</div>
+                    <div class="skills-percent__wrapper__item-head__percents">75%</div>
+                </div>
+                <div class="skills-percent__wrapper__item-rentangle">
+                    <div class="skills-percent__wrapper__item-rentangle__include"><span></span></div>
+                </div>
+            </div>
+            <div class="skills-percent__wrapper__item">
+                <div class="skills-percent__wrapper__item__block">
+                    <div class="skills-percent__wrapper__item-head">
+                        <div class="title title__fz14 skills-percent__wrapper__item-head__title">Креативность</div>
+                        <div class="skills-percent__wrapper__item-head__percents">60%</div>
+                    </div>
+                    <div class="skills-percent__wrapper__item-rentangle">
+                        <div class="skills-percent__wrapper__item-rentangle__include"><span></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>   
        </div>
    </section>
 
-   <section class="portfolio">
+   <!-- <section class="portfolio">
        <div class="container">
            <h2 class="title title__fz16 portfolio__title">Портфолио</h2>
            <div class="title title__fz36 portfolio__subtitle">Мои работы</div>
@@ -244,9 +247,9 @@
                  </a>
            </div>
        </div>
-   </section>
+   </section> -->
 
-   <section class="price">
+   <!-- <section class="price">
        <div class="container">
            <h2 class="title title__fz16 price__title">Прайс-лист</h2>
            <div class="price__divider"></div>
@@ -283,9 +286,9 @@
                 </div>
            </div>
        </div>
-   </section>
+   </section> -->
 
-   <section class="contacts">
+   <!-- <section class="contacts">
        <div class="container">
            <div class="contacts__wrapper">
                <div class="contacts__photo">
@@ -311,25 +314,29 @@
 
                     <form action="#" class="contacts__form">
                         <div class="contacts__input">
-                            <input name="name" id="name" type="text">
+                            <input required name="name" id="name" type="text">
                             <label for="name">Ваше имя</label>
                         </div>
                         <div class="contacts__input">
-                            <input name="email" id="email" type="email">
+                            <input required name="email" id="email" type="email">
                             <label for="email">Ваша почта</label> 
                         </div>
                         <div class="contacts__textarea">
                             <textarea name="text" id="text"></textarea>
                             <label for="text">Ваше сообщение</label>
                         </div>
-                        <div class="div">
+                        <div class="contacts__triggers">
                             <button class="btn">Отправить сообщение</button>
+                            <div class="contacts__policy">
+                                <input required type="checkbox">
+                                <span>Я согласен(а) с <a href="#">политикой конфиденциальности</a></span>
+                            </div>
                         </div>
                     </form>
                 </div>
            </div>
        </div>
-   </section>
+   </section> -->
 
     <script src="js/script.js"></script>
 </body>
